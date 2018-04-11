@@ -16,12 +16,12 @@ const calback=function (el,i,array){
 //passed-in argument
 
 const logDriversByHometown = function (drivers, hometown) {
-  drivers.sort(function (driver) {
+  drivers.forEach(function (driver) {
   if (driver.hometown===hometown){
   console.log(driver.name);
   }
   });
-};
+}
 
 const driversByRevenue = function (drivers) {
   return  drivers.slice().sort(function (driver1,driver2){
