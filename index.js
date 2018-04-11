@@ -40,3 +40,7 @@ const totalRevenue = function (drivers) {
     return totalRev + driver.revenue;
   }, 0);
 };
+
+const averageRevenue= function (drivers) {
+  return (totalRevenue(drivers))/drivers.length;
+};
