@@ -10,10 +10,10 @@ const calback=function (el,i,array){
   console.log(el.name);
 };
 
-//logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the name attribute of each driver whose hometown 
+//logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the name attribute of each driver whose hometown
 //matches the string passed in as the 'location' argument.
-//logs the name of each driver whose hometown matches the 
-//passed-in argument 
+//logs the name of each driver whose hometown matches the
+//passed-in argument
 
 const logDriversByHometown = function (drivers, hometown) {
   drivers.sort(function (driver) {
@@ -44,4 +44,4 @@ const driversByRevenue = function (drivers) {
 +const averageRevenue= function (drivers) {
 +  return (totalRevenue(drivers))/drivers.length;
 +};
-© 2018 GitHub, Inc.
+
