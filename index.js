@@ -40,9 +40,3 @@ const totalRevenue = function (drivers) {
     return totalRev + driver.revenue;
   }, 0);
 };
-
-case expression:
-
-  break;onst averageRevenue= function (drivers)
-  {return (totalRevenue(drivers))/drivers.length;
-};
